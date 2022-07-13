@@ -1,25 +1,24 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+  <html lang="en-US">
     <head>
-				<script src="https://unpkg.com/peerjs@1.4.5/dist/peerjs.min.js"></script>
-        <script src="/js/todo.js"></script>
-        <link type="text/css" href="/css/style.css" rel="stylesheet"/>
-				<meta charset="UTF8"/>
-        <meta name="description" content="ToDo list, tasker"/>
-        <meta name="keywords" content="ToDo list"/>
-        <meta name="viewpoint" content="width=device-width, inital-scale=1.0"/>
-        <title>To-Do List</title>
+      <link type="text/css" href="../public/css/style.css" rel="stylesheet"></link>
+      <meta charset="UTF8"/>
+      <meta name="description" content="ToDo list, tasker"/>
+      <meta name="keywords" content="ToDo list"/>
+      <meta name="viewpoint" content="width=device-width, inital-scale=1.0"/>
+      <title>To-Do List</title>
     </head>
     <body>
-        <h1>TODO-LIST</h1>
+      <h1>TODO-LIST</h1>
+      <div>
+        <input id="inputvalue" type="text" placeholder="Task be here"/>
+        <button onclick="addtask()" id="push">Add</button>
+      </div>
 					<div>
-						<input id="inputvalue" type="text" placeholder="Task be here"/>
-						<button onclick="addtask()" id="push">Add</button>
-					</div>
-					<div>
-						<ul>
+						<ol>
 							<li></li>
-						</ul>
+            </ol>
 					</div>
-    </body>
-</html>
+          <script src="../public/js/todo.js"></script>
+        </body>
+  </html>

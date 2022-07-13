@@ -1,15 +1,15 @@
-const push = document.getElementById("push")
-push.addEventListener("click", addtask());
-
+let push = document.getElementById("push");
 const addtask = () => {
 	console.log(`button have been clicked`);
-	const newtask = document.createElement("li");
-	const task = document.getElementById.innerHTML("inputvalue").value;
-	const t = document.createTextNode(inputValue);
-	newtask.appendChild(task);
-	console.log(`${task} have been added`)
+	let task = document.getElementById("inputvalue").value;
+	const li = document.createElement("li").innerHTML = `${task}`;
+	li.appendChild;
+	console.log(`${task} have been added`);
+	task.value = "";
 	if (task === "") {
-		windows.alert(`Just write something`);
+		alert(`Just write something`);
+	} else {
+		return;
 	}
-	return
-}
+};
+push.addEventListener("click", addtask());
