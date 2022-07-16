@@ -3,22 +3,38 @@
     <head>
       <link type="text/css" href="../public/css/style.css" rel="stylesheet"></link>
       <meta charset="UTF8"/>
-      <meta name="description" content="ToDo list, tasker"/>
-      <meta name="keywords" content="ToDo list"/>
+      <meta name="description" content="todo list, tasker"/>
+      <meta name="keywords" content="TODO-List"/>
       <meta name="viewpoint" content="width=device-width, inital-scale=1.0"/>
-      <title>To-Do List</title>
-    </head>
+      <title>TODO</title>
+      </head>
     <body>
-      <h1>TODO-LIST</h1>
-      <div>
-        <input id="inputvalue" type="text" placeholder="Task be here"/>
-        <button onclick="addtask()" id="push">Add</button>
-      </div>
-					<div>
-						<ol>
-							<li></li>
+        <header>
+          <h1>TODO-LIST</h1>
+          <h3 id="h3"></h3>
+        </header>
+        <hr>
+        <div>
+          <div>
+            <input id="inputvalue" type="text" placeholder="Task be here"/>
+            <button onclick="addtask()" id="push">Add</button>
+          </div>
+			    <div>
+			  	  <ol>
+      		    <li>meeting</li>
             </ol>
-					</div>
-          <script src="../public/js/todo.js"></script>
-        </body>
+			    </div>
+			  </div>
+        <hr>
+        <footer id=""footer>
+          <a href="https://discord.gg/HswZaneNjQ">Support</a>
+          <br>
+          <a href="https://discord.gg/HswZaneNjQ" >Discord</a>
+          <br>
+          <a href="https://discord.gg/HswZaneNjQ">Content us</a>
+        </footer>
+        <hr>
+        <script src="../public/js/todo.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+      </body>
   </html>
