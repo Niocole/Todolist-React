@@ -1,24 +1,24 @@
 /*body{
-	background-color: #1c1c1b;	
+    background-color: #1c1c1b;    
 }*/
 h1{
-/*	color:  #FFFFFF;
-	opacity: 87%;*/
-	font-family: sans-serif;
-}
-#inputvalue{
-	font-family: sans-serif;
-	background-color: #EAE4E3;
-	opacity: 95%;
-}
-#push{
-	background-color:	#1f1f1f;
-	color: #D3D3D3;
-	opacity: 85%;
-	font-size: 10px;
-	border-radius: 15px;
-}
-li{
-	color: #AAAAAA;
-	font-family: sans-serif;
-}
+	/*    color:  #FFFFFF;
+		opacity: 87%;*/
+		font-family: sans-serif;
+	}
+	#inputvalue{
+		font-family: sans-serif;
+		background-color: #EAE4E3;
+		opacity: 95%;
+	}
+	#push{
+		background-color:    #1f1f1f;
+		color: #D3D3D3;
+		opacity: 85%;
+		font-size: 10px;
+		border-radius: 15px;
+	}
+	li{
+		color: #AAAAAA;
+		font-family: sans-serif;
+	}
