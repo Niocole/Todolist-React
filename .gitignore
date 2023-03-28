@@ -1,1 +1,4 @@
 node_modules/
+./.replit
+./replit.nix
+.gitignore

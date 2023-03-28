@@ -1,9 +1,9 @@
+let gettask = "task";
 let count = $("#count").length;
-let gtask = "task";
 if(count <= 1) {
-    gtask = "task"
+    gettask = "task"
 } else {
-    gtask="tasks"
+    gettask="tasks"
 }
 const inputvalue = $("#inputvalue").value
 //Callback
@@ -14,7 +14,7 @@ $(document).ready(function(){
 //Add task
 const addtask = () => {
     $("addtask").click(function(){
-        $("#tasklist").append(`<li>${inputvalue}</li>`)
+        $("#tasklist").append(`<li>${inputvalue}</li>`) 
     })
 }
 //Update number of task
