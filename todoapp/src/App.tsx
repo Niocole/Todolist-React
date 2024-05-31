@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import TodoApp from './Components/TodoApp';
-import { FC } from 'react';
+import Todolist from './Components/Todolist';
+// import AddTodo from './Components/Addtodo';
 
-const App: FC = () => {
+
+const App: React.FC = () => {
   return (
     <>
       <h1>TODO List</h1>
-      <TodoApp />
+      {/* <AddTodo /> */}
+      <Todolist />
     </>
   );  
 }
