@@ -7,7 +7,6 @@ import Todolist from './Components/Todolist';
 const App: React.FC = () => {
   return (
     <>
-      <h1>TODO List</h1>
       {/* <AddTodo /> */}
       <Todolist />
     </>
