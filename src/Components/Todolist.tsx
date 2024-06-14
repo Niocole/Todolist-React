@@ -52,26 +52,29 @@ const AddTodo: FC = () => {
     };
 
   return (
-    <div className="flex justify-center items-center bg-black border-4 text-white min-w-64 max-w-64">
-      <h1 className=''>TodoList</h1>
+    <>
+    <div className="flex justify-center items-center flex-col bg-black border-2 rounded-2xl text-white min-w-64 max-w-64">
+      <h1 className='text-white font-bold'>TodoList</h1>
       <div className=''>
       <input
+        className='text-black mr-1'
         type="text"
         placeholder="Enter a todo..."
         value={todoText}
         onChange={handleInputChange}
         onKeyDown={handleKeyAddTodo}
       />
-      <button onClick={handleAddTodo} className='outline-2'>Add Todo</button>
+      <button onClick={handleAddTodo} className='outline outline-2 outline-offset-1 ml-1 rounded-md'>Add Todo</button>
       </div>
       <div>
-        <ul className="flex-col">
+        <ul className="flex-col items-start">
           {todos.map((todo) => (
             <li key={todo.index} onClick={() => handleDeleteTodo(todo.index)} className="hover:line-through">{"•" + todo.text}</li>
           ))}
         </ul>
         </div>  
       </div>
+    </>
   );
 };
 
